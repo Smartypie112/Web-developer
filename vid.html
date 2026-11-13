@@ -26,7 +26,7 @@
   <!-- Project Preview -->
   <div class="bg-black h-72 flex items-center justify-center overflow-hidden">
     <video controls preload="metadata" id="videoPlayer" class="w-full h-full object-contain bg-black">
-      <source id="videoSource" src="1.mp4" type="video/mp4" />
+      <source id="videoSource" src="assets/videos/1.mp4" type="video/mp4" />
     </video>
   </div>
 
@@ -99,7 +99,7 @@
 <script>
 const videos = [
   {
-    src: "1.mp4",
+    src: "assets/videos/1.mp4",
     title: "Portfolio Website",
     category: "Web Development",
     price: "₹6,000 - ₹10,000",
@@ -110,7 +110,7 @@ const videos = [
     duration: "2 Days"
   },
   {
-    src: "2.mp4",
+    src: "assets/videos/2.mp4",
     title: "Bussiness Website",
     category: "Fullstack Build",
     price: "₹20,000 - ₹25,000",
@@ -120,28 +120,6 @@ const videos = [
     technology: "ReactJS, Tailwind,Nodejs,Expressjs",
     duration: "8 Days"
   },
-  {
-    src: "3.mp4",
-    title: "Music producer Website",
-    category: "Frontend Build",
-    price: "₹6,000 - ₹8,000",
-    reviewer: " RGDEAGLE",
-    review: "frontend perfectly synced, great admin panel.",
-    liveLink: "https://rgdeagle.netlify.app/",
-    technology: "React, MongoDB,Bootstrap",
-    duration: "2 Days"
-  },
-  {
-    src: "4.mp4",
-    title: "Customer Management Website",
-    category: "Fullstack Build",
-    price: "₹20,000 - ₹25,000",
-    reviewer: "Waari Library",
-    review: "Good work, I will recomend you to my friends too.",
-    liveLink: "https://smartypie112.github.io/Library/",
-    technology: "ExpressJS, NodeJs, HTML, CSS, Javascript, MongoDB",
-    duration: "6 Days"
-  }
 ];
 
 let currentIndex = localStorage.getItem("videoIndex") || 0;
